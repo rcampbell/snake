@@ -1,0 +1,6 @@
+(ns snake.test.core
+  (:use [snake.core] :reload)
+  (:use [clojure.test]))
+
+(deftest replace-me ;; FIXME: write
+  (is false "No tests have been written."))
