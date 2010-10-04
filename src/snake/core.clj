@@ -5,6 +5,8 @@
 	   [java.awt.image BufferStrategy]
 	   [java.awt.event KeyListener KeyEvent]))
 
+(defmacro japply [obj f args] `(. ~obj ~f ~@args))
+
 (def keys {KeyEvent/VK_UP :up
 	   KeyEvent/VK_DOWN :down
 	   KeyEvent/VK_LEFT :left
